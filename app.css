@@ -1,0 +1,303 @@
+*:focus{
+    outline: 0px;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(6, 78, 107);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: red;
+}
+
+header{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.fa-soundcloud{
+    font-size: 150px;
+}
+input{
+    width: 30%;
+    padding: 10px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid white;
+    font-size: 30px;
+    color: white;
+}
+.button{
+    color: white;
+    padding: 17px 35px;
+    background-color: skyblue;
+    font-size: 20px;
+    border: 0px;
+}
+.weatherOutput{
+    width: 25%;
+    margin: auto;
+    background-color:skyblue;
+    padding:10px 20px 10px 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px white;
+}
+
+.city{
+    text-align: left;
+    font-size: 40px;
+    color:rgb(6, 78, 107);
+    padding-top: 40px;
+}
+.country{
+    color: green;
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 20px 0px 20px 0px;
+    font-size: 18px;
+}
+.temp{
+    font-size: 70px;
+}
+.icon{
+    transform: scale(2);
+    margin-top: -20px;
+}
+
+
+figcaption{
+    font-size: 28px;
+    color:rgb(6, 78, 107) ;
+    margin-top: 10px;
+}
+
+.closeBtn{
+    float: right;
+    background-color: transparent;
+    border: 0px;
+}
+
+.material-icons{
+    transform: scale(1.5);
+    color: red;
+    animation-name: material;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes material{
+    0%{transform: rotate(-60deg);}
+    100%{transform: rotate(60deg);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1023px){
+    main{
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        color: red;
+    }
+    
+    header{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    h1{
+        color: white;
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .fa-soundcloud{
+        font-size: 150px;
+    }
+    input{
+        width: 45%;
+        padding: 10px;
+        background-color: transparent;
+        border: 0px;
+        border-bottom: 1px solid white;
+        font-size: 30px;
+        color: white;
+    }
+    .button{
+        color: white;
+        padding: 17px 35px;
+        background-color: skyblue;
+        font-size: 20px;
+        border: 0px;
+    }
+    .weatherOutput{
+        width: 35%;
+        margin: auto;
+        background-color:skyblue;
+        padding:10px 20px 10px 20px;
+        margin-top: 20px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 1px 2px 5px white;
+        margin-bottom: 30px;
+    }
+    
+    .city{
+        text-align: left;
+        font-size: 30px;
+        color:rgb(6, 78, 107);
+        margin-bottom: 0px;
+        padding-top: 40px;
+    }
+    .country{
+        color: green;
+        background-color: yellow;
+        padding: 5px;
+        border-radius: 20px 0px 20px 0px;
+        font-size: 15px;
+    }
+    .temp{
+        font-size: 60px;
+    }
+    .icon{
+        transform: scale(2);
+        margin-top: 0px;
+    }
+    
+    
+    figcaption{
+        font-size: 20px;
+        color:rgb(6, 78, 107) ;
+        margin-top: 0px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px){
+    
+    main{
+        overflow-x: hidden;
+        width: 90%;
+        text-align: center;
+        font-size: 15px;
+        color: red;
+        padding: 10px;
+        margin: auto;
+        
+    }
+    
+    header{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    h1{
+        color: white;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .fa-soundcloud{
+        font-size: 100px;
+    }
+    input{
+        width: 100%;
+        padding: 10px 0px;
+        background-color: transparent;
+        border: 0px;
+        border-bottom: 1px solid white;
+        font-size: 20px;
+        color: white;
+        margin-bottom: 30px;
+    }
+    .button{
+        color: white;
+        padding: 17px 10px;
+        width: 100%;
+        background-color: skyblue;
+        font-size: 20px;
+        margin-bottom: 10px;
+        border: 0px;
+        border-radius: 10px;
+    }
+    .weatherOutput{
+        width: 90%;
+        margin: auto;
+        background-color:skyblue;
+        padding:10px 10px;
+        margin-top: 10px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 1px 2px 5px white;
+        margin-bottom: 20px;
+    }
+    
+    .city{
+        text-align: left;
+        font-size: 28px;
+        color:rgb(6, 78, 107);
+        margin-bottom: 5px;
+        padding-top: 40px;
+    }
+    .country{
+        color: green;
+        background-color: yellow;
+        padding: 5px;
+        border-radius: 20px 0px 20px 0px;
+        font-size: 15px;
+    }
+   
+    
+    .icon{
+        transform: scale(2);
+        margin-top: 5px;
+    }
+    
+    
+    figcaption{
+        font-size: 28px;
+        color:rgb(6, 78, 107) ;
+        margin-top: 10px;
+    }
+    
+    .closeBtn{
+        float: right;
+        background-color: transparent;
+        border: 0px;
+    }
+    
+}
